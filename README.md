@@ -16,13 +16,15 @@ Use the SimplificationHelpers class to quickly simplify a list of System.Windows
 The library is non-intrusive and only requires methods for extracting x,y and z values as doubles and for comparing two objects of the given type.
 
 ```csharp
+    double tolerance = 0.5;
+    bool highQualityEnabled = false;
     var simplifiedPoints = SimplificationHelpers.Simplify<Point>(
                     Points,
                     (p1, p2) => p1 == p2,
                     (p) => p.X, 
                     (p) => p.Y,
                     tolerence,
-                    HighQualityEnabled
+                    highQualityEnabled
                     );
 ```
 
