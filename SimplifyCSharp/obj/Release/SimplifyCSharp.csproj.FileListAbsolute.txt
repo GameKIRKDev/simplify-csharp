@@ -1,5 +1,0 @@
-E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\bin\Release\SimplifyCSharp.dll
-E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\bin\Release\SimplifyCSharp.pdb
-E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\obj\Release\SimplifyCSharp.csproj.CoreCompileInputs.cache
-E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\obj\Release\SimplifyCSharp.dll
-E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\obj\Release\SimplifyCSharp.pdb
