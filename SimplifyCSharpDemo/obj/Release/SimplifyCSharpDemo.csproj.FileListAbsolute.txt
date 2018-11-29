@@ -1,0 +1,17 @@
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\bin\Release\SimplifyCSharpDemo.exe
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\bin\Release\SimplifyCSharpDemo.pdb
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\bin\Release\SimplifyCSharp.dll
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\bin\Release\SimplifyCSharp.pdb
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.csprojAssemblyReference.cache
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\MainWindow.g.cs
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\App.g.cs
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo_MarkupCompile.cache
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo_MarkupCompile.lref
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\MainWindow.baml
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.g.resources
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.Properties.Resources.resources
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.csproj.GenerateResource.cache
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.csproj.CoreCompileInputs.cache
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.csproj.CopyComplete
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.exe
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharpDemo\obj\Release\SimplifyCSharpDemo.pdb

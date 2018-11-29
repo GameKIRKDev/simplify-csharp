@@ -1,0 +1,102 @@
+﻿<Window x:Class="SimplifyCSharpDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimplifyCSharpDemo"
+        mc:Ignorable="d"
+        Title="Simplify CSharp Demo"
+        Background="LightGray"
+        Height="450" Width="800">
+    <Grid
+        Margin="10"
+        >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid
+                Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label>User Input:</Label>
+                <Canvas 
+                    Grid.Row="1"
+                    Background="White"
+                    Name="Canvas_UserInput"            
+                    MouseMove="Canvas_UserInput_MouseMove"/>
+            </Grid>
+            <Grid
+                Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label>Simplified Output:</Label>
+                <Canvas 
+                    Grid.Row="1"
+                    Background="White"
+                    Name="Canvas_SimplifiedOutput"            
+                    MouseMove="Canvas_UserInput_MouseMove"/>
+            </Grid>
+        </Grid>
+        <DockPanel
+            Height="30"
+            Grid.Row="4"
+            VerticalAlignment="Bottom"
+            LastChildFill="False"
+            >
+            <Button 
+                DockPanel.Dock="Right" 
+                Click="Clear_Click">
+                Clear
+            </Button>
+            <Button 
+                DockPanel.Dock="Right" 
+                Click="Simplify_Click"
+                >
+                Simplify
+            </Button>
+            <TextBox 
+                Margin="5"
+                Width="30" 
+                HorizontalAlignment="Stretch" 
+                VerticalContentAlignment="Center" 
+                DockPanel.Dock="Right"
+                Text="{Binding ToleranceText}"
+                >
+            </TextBox>
+            <Label 
+                VerticalContentAlignment="Center" 
+                HorizontalAlignment="Stretch" 
+                DockPanel.Dock="Right"
+                >
+                Tolerance:
+            </Label>
+            <CheckBox
+                IsChecked="{Binding HighQualityEnabled}"
+                VerticalContentAlignment="Stretch"
+                DockPanel.Dock="Right"
+                />
+            <Label
+                DockPanel.Dock="Right"
+                VerticalContentAlignment="Center">
+                High Quality:
+            </Label>
+            <Label>Input Points:</Label>
+            <Label Content="{Binding NumInputPoints}"/>
+            <Label>Output Points:</Label>
+            <Label Content="{Binding NumOutputPoints}"/>
+            <Label>Algorithm Runtime (ms):</Label>
+            <Label Content="{Binding AlgorithmRuntime}"/>
+        </DockPanel>
+    </Grid>
+</Window>

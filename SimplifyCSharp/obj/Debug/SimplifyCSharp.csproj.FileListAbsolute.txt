@@ -1,0 +1,5 @@
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\obj\Debug\SimplifyCSharp.csproj.CoreCompileInputs.cache
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\bin\Debug\SimplifyCSharp.dll
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\bin\Debug\SimplifyCSharp.pdb
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\obj\Debug\SimplifyCSharp.dll
+E:\Development\simplify-csharp\simplify-csharp\SimplifyCSharp\obj\Debug\SimplifyCSharp.pdb
