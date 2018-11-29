@@ -3,7 +3,7 @@
 Polyline simplifier
 
   * Uses Radial-Distance algorithm (fast) or Douglas-Peucker (high quality) algorithm
-  * Port of [hgoebl/simplify-java](https://github.com/hgoebl/simplify-java) which in turn is a port of simplify-js which is a High-performance JavaScript 2D/3D polyline simplification library by Vladimir Agafonkin
+  * Port of [hgoebl/simplify-java](https://github.com/hgoebl/simplify-java) which in turn is a port of simplify-js, a High-performance JavaScript 2D/3D polyline simplification library by Vladimir Agafonkin
   * Highly optimized for C#
   * Avoids unncessary memory allocations
   * Completely non-intrusive and can be used with any class or struct. Avoids any interfaces to prevent issues with boxing/unboxing when working with structs. 
