@@ -35,6 +35,12 @@ the square of it will get even less. In such cases, the tolerance has negative e
 Solution: multiply your coordinates by a factor so the values are shifted in a way so that taking
 the square of the differences creates greater values.
 
+# Demo #
+
+To demo the algorithm, compile and run the SimplifyCSharpDemo project and scribble some lines in the user input canvas. Click on Simplify to run the algorithm and draw the result in the output canvas.
+
+![Demo Screenshot](https://i.imgur.com/outNL5F.png)
+
 # Licence #
 
   * [The MIT License](http://opensource.org/licenses/MIT)
